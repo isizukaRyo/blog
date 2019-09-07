@@ -1,0 +1,440 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: #F7F7F7;
+}
+
+a {
+    text-decoration: none;
+    color: #7B7B7B;
+}
+
+/* ヘッダー */
+header {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+h1{
+  float: left;
+  padding: 3rem;
+}
+.written{
+float: left;
+margin-top: 3em;
+margin-left: 1rem;
+font-size: 1.3rem;
+}
+
+.header_top {
+    width: 100%;
+    margin: 0 auto;
+}
+
+nav {
+    clear: both;
+    width: 100%;
+    background-color: black;
+    padding: 5px 0;
+}
+
+.header_list {
+    max-width: 1170px;
+    width: 80%;
+    margin-left: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_list_inner {
+    list-style: none;
+    color: white; 
+    padding: 15px 0;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+}
+.header_link{
+    color: white;
+}
+.header_list_inner:hover{
+    background-color:  #6F6F6F;
+}
+
+/* メイン */
+main {
+    max-width: 1170px;
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.main_header {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.popularity {
+    width: 31.33333%;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 2em;
+}
+
+.popularity_title {
+    font-size: 1.9rem;
+    text-align: center;
+    margin: 2em 0;
+    line-height: 4rem;
+    /* padding: 0px 5px; */
+}
+.res_popularity_title{
+    display: none;
+}
+
+.popu_image {
+    width: 100%;
+}
+.popu_image > img{
+    width: 100%;
+}
+
+.more {
+    font-size: 1.4rem;
+    padding: 15px 30px;
+    border: solid 1px;
+}
+
+.top {
+    width: 65%;
+    float: left;
+}
+.top_image{
+    max-width: 750px;
+}
+.top_image > img{
+    width: 100%;
+    height: 330px;
+    
+}
+
+.recently {
+    width: 100%;
+    text-align: center;
+    
+    padding-bottom: 4rem;
+    background-color: white;
+}
+
+.recently_title {
+    font-size: 2.5rem;
+    padding: 0 40px;
+    margin: 1em 0;
+    line-height: 2;
+}
+
+.recently_comment {
+    margin-bottom: 5em;
+    font-size: 1.7rem;
+    padding: 0 40px;
+    margin-top: 2em;
+}
+
+.date {
+    font-size: 1.3rem;
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+    color: #7B7B7B;
+    padding: 0 40px;
+    padding-top: 6em;
+
+}
+
+.life {
+    color: #4773BA;
+    margin: 2em 0;
+    font-size: 1.3rem;
+}
+
+/* サイド */
+.side {
+    width: 31.33333%;
+    margin-top: 6em;
+    float: right;
+}
+
+.fa-chevron-right {
+    color: #4773BA;
+}
+
+.profile {
+    margin-bottom: 4rem;
+    background-color: white;
+    padding-bottom: 4rem;
+    padding-top: 2em;
+}
+
+.circle {
+    width: 130px;
+    height: 130px;
+    border-radius: 130px;
+    margin: 0 auto;
+    margin-top: 4em;
+    border:solid 1px;
+    
+
+}
+
+.next {
+    float: right;
+    font-size: 1.4rem;
+    padding: 19px 20px;
+    border: solid 1px;
+    
+}
+
+.proffile_name {
+    font-size: 2rem;
+    margin-top: 3.5rem;
+    text-align: center;
+}
+
+.profile_link {
+    color: #337ab7;
+}
+
+.introduce {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 4rem;
+    padding: 0 20px;
+}
+
+.profile_inner {
+    list-style: none;
+    text-align: right;
+    font-size: 1.4rem;
+    margin-bottom: 0.5em;
+}
+
+form {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 5em;
+    padding-right: 5%;
+    padding-left: 5%;
+    padding-top:2em;
+    padding-bottom: 5em;
+    background-color: white 
+
+}
+
+.search {
+    width: 100%;
+    height: 60px;
+    background: #F5F5F5;
+    border: 1px solid #EBEBEB;
+}
+
+.read {
+    background-color: white;
+}
+
+.read_title {
+    font-size: 2rem;
+    padding-top: 5rem;
+    text-align: center;
+}
+.read_inner > a{
+  padding: 0 10px;
+}
+
+.main_hr {
+    width: 20%;
+    border: 1px solid #374CA5;
+    margin: 0 auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+}
+
+.read_inner {
+    text-align: center;
+    color: #7B7B7B;
+    font-size: 1.5em;
+    list-style: none;
+    line-height: 2.5em;
+    margin: 1em 0;
+}
+
+.achieve {
+    margin-top: 3.5em;
+    background-color: white;
+}
+
+.achive_title {
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 4em;
+}
+
+.achieve_inner {
+    font-size: 1.7rem;
+    list-style: none;
+    border-top: dotted 1px #686868;
+    line-height: 5.5rem;
+}
+
+.achieve_inner>a {
+    padding-left: 2rem;
+}
+
+/* フッター */
+footer {
+    clear: both;
+    width: 100%;
+    padding-top: 5em;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.container {
+    max-width: 1170px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+dt {
+    font-size: 2rem;
+}
+
+.footer_hr {
+    width: 20%;
+    border: 1px solid #374CA5;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.footer_comment {
+    margin-bottom: 1em;
+}
+
+.footer_list {
+    width: 32%;
+}
+
+.footer_link {
+    color: #337ab7;
+    font-size: 1.2rem;
+}
+
+.portfolio_inner {
+    line-height: 5em;
+    border-top: dotted 1px #686868;
+}
+
+.portfolio_inner>a {
+    font-size: 1.2rem;
+    padding-left: 1.5rem;
+}
+
+.copy_right {
+    width: 100%;
+    color: white;
+    background: #222222;
+    font-size: 1.2rem;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 1.5rem;
+    margin-top: 4rem;
+
+}
+.next_button {
+    margin-top: 3em;
+    margin-bottom: 13rem;
+}
+
+@media screen and (max-width:768px) {
+    .header_list{
+        width: 100%;
+      padding: 1em 0;
+      display: block;
+      margin: 0;
+    }
+.header_list_inner {
+    display: block;
+    padding: 10px;
+}
+    main {
+        width: 100%;
+    }
+
+    .main_header {
+        display: block;
+    }
+
+    .popularity {
+        width: 95%;
+        margin: 0 auto;
+
+    }
+
+    .top {
+        width: 95%;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .profile {
+        padding-top: 4em;
+    }
+
+    .side {
+        float: none;
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    .footer_list {
+        width: 100%;
+    }
+}
+@media screen and (max-width:480px){
+    .popularity_title{
+        display: none;
+    }
+    .res_popularity_title{
+        display: block;
+        text-align: center;
+        margin: 2em 0;
+        line-height: 4rem;
+    }
+    .recently_title{
+        font-size: 1.8rem;
+    }
+    .top_image > img{
+        height: 150px;
+    }
+    .popu_image > img{
+        height: 150px;
+    }
+
+}
